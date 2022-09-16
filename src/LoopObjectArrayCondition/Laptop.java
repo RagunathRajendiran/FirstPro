@@ -6,6 +6,7 @@ public class Laptop {
      String color;
      int ram;
      boolean isQuality;
+     boolean isVaranty;
      
 	
 

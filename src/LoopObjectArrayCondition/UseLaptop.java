@@ -8,6 +8,7 @@ public class UseLaptop {
 	lap1.color="Black";
 	lap1.ram=4;
 	lap1.isQuality=true;
+	lap1.isVaranty=true;
 	
 	Laptop lap2=new Laptop();
 	lap2.brand="Apple";
@@ -15,6 +16,7 @@ public class UseLaptop {
 	lap2.color="White";
 	lap2.ram=16;
 	lap2.isQuality=true;
+	lap2.isVaranty=true;
 	
 	Laptop lap3=new Laptop();
 	lap3.brand="Acer";
@@ -22,6 +24,7 @@ public class UseLaptop {
 	lap3.color="Red";
 	lap3.ram=8;
 	lap3.isQuality=true;
+	lap3.isVaranty=true;
 	
 	Laptop[] laps= {lap1,lap2,lap3};
 	int max=laps[0].price;
@@ -32,7 +35,7 @@ public class UseLaptop {
 			maxBrand=laps[i].brand;
 		}
 		
-		System.out.println("Brand :"+laps[i].brand+", Price :"+laps[i].price+",Color :"+laps[i].color+", IsQuality :"+laps[i].isQuality);
+		System.out.println("Brand :"+laps[i].brand+", Price :"+laps[i].price+",Color :"+laps[i].color+", IsQuality :"+laps[i].isQuality+",IsVaranty :"+laps[i].isVaranty);
 	}
 	System.out.println("Maximum price ="+max+",MaxBrand ="+maxBrand);
 }
